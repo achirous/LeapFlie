@@ -1,0 +1,695 @@
+{
+  "sensorfusion6.baseZacc" : {
+    "name" : "baseZacc",
+    "group" : "sensorfusion6",
+    "ident" : 33,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor2y" : {
+    "name" : "anchor2y",
+    "group" : "anchorpos",
+    "ident" : 88,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor2x" : {
+    "name" : "anchor2x",
+    "group" : "anchorpos",
+    "ident" : 87,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "sound.ratio" : {
+    "name" : "ratio",
+    "group" : "sound",
+    "ident" : 71,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "system.selftestPassed" : {
+    "name" : "selftestPassed",
+    "group" : "system",
+    "ident" : 4,
+    "ctype" : "INT8_T",
+    "access" : 1
+  },
+  "flightmode.stabModeRoll" : {
+    "name" : "stabModeRoll",
+    "group" : "flightmode",
+    "ident" : 10,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "anchorpos.anchor2z" : {
+    "name" : "anchor2z",
+    "group" : "anchorpos",
+    "ident" : 89,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "imu_acc_lpf.factor" : {
+    "name" : "factor",
+    "group" : "imu_acc_lpf",
+    "ident" : 67,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "pid_rate.roll_ki" : {
+    "name" : "roll_ki",
+    "group" : "pid_rate",
+    "ident" : 14,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_rate.roll_kd" : {
+    "name" : "roll_kd",
+    "group" : "pid_rate",
+    "ident" : 15,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_rate.roll_kp" : {
+    "name" : "roll_kp",
+    "group" : "pid_rate",
+    "ident" : 13,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "sound.freq" : {
+    "name" : "freq",
+    "group" : "sound",
+    "ident" : 70,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "anchorpos.anchor3z" : {
+    "name" : "anchor3z",
+    "group" : "anchorpos",
+    "ident" : 92,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor3y" : {
+    "name" : "anchor3y",
+    "group" : "anchorpos",
+    "ident" : 91,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor3x" : {
+    "name" : "anchor3x",
+    "group" : "anchorpos",
+    "ident" : 90,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "flightmode.stabModeYaw" : {
+    "name" : "stabModeYaw",
+    "group" : "flightmode",
+    "ident" : 12,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "sound.effect" : {
+    "name" : "effect",
+    "group" : "sound",
+    "ident" : 68,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "ring.solidBlue" : {
+    "name" : "solidBlue",
+    "group" : "ring",
+    "ident" : 76,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "pid_attitude.pitch_kd" : {
+    "name" : "pitch_kd",
+    "group" : "pid_attitude",
+    "ident" : 27,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.pitch_ki" : {
+    "name" : "pitch_ki",
+    "group" : "pid_attitude",
+    "ident" : 26,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.neffect" : {
+    "name" : "neffect",
+    "group" : "ring",
+    "ident" : 73,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "anchorpos.anchor4z" : {
+    "name" : "anchor4z",
+    "group" : "anchorpos",
+    "ident" : 95,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.headlightEnable" : {
+    "name" : "headlightEnable",
+    "group" : "ring",
+    "ident" : 77,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "anchorpos.anchor4y" : {
+    "name" : "anchor4y",
+    "group" : "anchorpos",
+    "ident" : 94,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor4x" : {
+    "name" : "anchor4x",
+    "group" : "anchorpos",
+    "ident" : 93,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.rpLimit" : {
+    "name" : "rpLimit",
+    "group" : "posCtlPid",
+    "ident" : 48,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.pitch_kp" : {
+    "name" : "pitch_kp",
+    "group" : "pid_attitude",
+    "ident" : 25,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "flightmode.althold" : {
+    "name" : "althold",
+    "group" : "flightmode",
+    "ident" : 5,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "pid_rate.pitch_kp" : {
+    "name" : "pitch_kp",
+    "group" : "pid_rate",
+    "ident" : 16,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "imu_sensors.MS5611" : {
+    "name" : "MS5611",
+    "group" : "imu_sensors",
+    "ident" : 63,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "posEst.estAlpha" : {
+    "name" : "estAlpha",
+    "group" : "posEst",
+    "ident" : 34,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_rate.pitch_ki" : {
+    "name" : "pitch_ki",
+    "group" : "pid_rate",
+    "ident" : 17,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.zKi" : {
+    "name" : "zKi",
+    "group" : "posCtlPid",
+    "ident" : 45,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.solidRed" : {
+    "name" : "solidRed",
+    "group" : "ring",
+    "ident" : 74,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "flightmode.posSet" : {
+    "name" : "posSet",
+    "group" : "flightmode",
+    "ident" : 7,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "pid_rate.pitch_kd" : {
+    "name" : "pitch_kd",
+    "group" : "pid_rate",
+    "ident" : 18,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.zKd" : {
+    "name" : "zKd",
+    "group" : "posCtlPid",
+    "ident" : 46,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posEst.vAccDeadband" : {
+    "name" : "vAccDeadband",
+    "group" : "posEst",
+    "ident" : 37,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.effect" : {
+    "name" : "effect",
+    "group" : "ring",
+    "ident" : 72,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "anchorpos.anchor5z" : {
+    "name" : "anchor5z",
+    "group" : "anchorpos",
+    "ident" : 98,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.zKp" : {
+    "name" : "zKp",
+    "group" : "posCtlPid",
+    "ident" : 44,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor5y" : {
+    "name" : "anchor5y",
+    "group" : "anchorpos",
+    "ident" : 97,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "imu_tests.HMC5883L" : {
+    "name" : "HMC5883L",
+    "group" : "imu_tests",
+    "ident" : 65,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "anchorpos.anchor5x" : {
+    "name" : "anchor5x",
+    "group" : "anchorpos",
+    "ident" : 96,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "cpu.id0" : {
+    "name" : "id0",
+    "group" : "cpu",
+    "ident" : 1,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "flightmode.yawMode" : {
+    "name" : "yawMode",
+    "group" : "flightmode",
+    "ident" : 8,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "lps.t" : {
+    "name" : "t",
+    "group" : "lps",
+    "ident" : 50,
+    "ctype" : "UINT32_T",
+    "access" : 1
+  },
+  "sensorfusion6.kp" : {
+    "name" : "kp",
+    "group" : "sensorfusion6",
+    "ident" : 31,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "sensorfusion6.ki" : {
+    "name" : "ki",
+    "group" : "sensorfusion6",
+    "ident" : 32,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "lps.y" : {
+    "name" : "y",
+    "group" : "lps",
+    "ident" : 52,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "sound.neffect" : {
+    "name" : "neffect",
+    "group" : "sound",
+    "ident" : 69,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "lps.z" : {
+    "name" : "z",
+    "group" : "lps",
+    "ident" : 53,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "cpu.id1" : {
+    "name" : "id1",
+    "group" : "cpu",
+    "ident" : 2,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "cpu.id2" : {
+    "name" : "id2",
+    "group" : "cpu",
+    "ident" : 3,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "lps.x" : {
+    "name" : "x",
+    "group" : "lps",
+    "ident" : 51,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.thrustBase" : {
+    "name" : "thrustBase",
+    "group" : "posCtlPid",
+    "ident" : 47,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "pid_attitude.yaw_kp" : {
+    "name" : "yaw_kp",
+    "group" : "pid_attitude",
+    "ident" : 28,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "cpu.flash" : {
+    "name" : "flash",
+    "group" : "cpu",
+    "ident" : 0,
+    "ctype" : "UINT16_T",
+    "access" : 0
+  },
+  "pid_attitude.roll_kd" : {
+    "name" : "roll_kd",
+    "group" : "pid_attitude",
+    "ident" : 24,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.yKi" : {
+    "name" : "yKi",
+    "group" : "posCtlPid",
+    "ident" : 42,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "controller.tiltComp" : {
+    "name" : "tiltComp",
+    "group" : "controller",
+    "ident" : 49,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "motorPowerSet.m1" : {
+    "name" : "m1",
+    "group" : "motorPowerSet",
+    "ident" : 55,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "motorPowerSet.m2" : {
+    "name" : "m2",
+    "group" : "motorPowerSet",
+    "ident" : 56,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "posCtlPid.yKd" : {
+    "name" : "yKd",
+    "group" : "posCtlPid",
+    "ident" : 43,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "motorPowerSet.m3" : {
+    "name" : "m3",
+    "group" : "motorPowerSet",
+    "ident" : 57,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "motorPowerSet.m4" : {
+    "name" : "m4",
+    "group" : "motorPowerSet",
+    "ident" : 58,
+    "ctype" : "UINT16_T",
+    "access" : 1
+  },
+  "pid_rate.yaw_kp" : {
+    "name" : "yaw_kp",
+    "group" : "pid_rate",
+    "ident" : 19,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.yKp" : {
+    "name" : "yKp",
+    "group" : "posCtlPid",
+    "ident" : 41,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.roll_ki" : {
+    "name" : "roll_ki",
+    "group" : "pid_attitude",
+    "ident" : 23,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.roll_kp" : {
+    "name" : "roll_kp",
+    "group" : "pid_attitude",
+    "ident" : 22,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_rate.yaw_ki" : {
+    "name" : "yaw_ki",
+    "group" : "pid_rate",
+    "ident" : 20,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_rate.yaw_kd" : {
+    "name" : "yaw_kd",
+    "group" : "pid_rate",
+    "ident" : 21,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posEst.velZAlpha" : {
+    "name" : "velZAlpha",
+    "group" : "posEst",
+    "ident" : 36,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "flightmode.poshold" : {
+    "name" : "poshold",
+    "group" : "flightmode",
+    "ident" : 6,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "flightmode.yawRst" : {
+    "name" : "yawRst",
+    "group" : "flightmode",
+    "ident" : 9,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "imu_tests.MPU6500" : {
+    "name" : "MPU6500",
+    "group" : "imu_tests",
+    "ident" : 64,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "imu_tests.MS5611" : {
+    "name" : "MS5611",
+    "group" : "imu_tests",
+    "ident" : 66,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "ring.emptyCharge" : {
+    "name" : "emptyCharge",
+    "group" : "ring",
+    "ident" : 79,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.fullCharge" : {
+    "name" : "fullCharge",
+    "group" : "ring",
+    "ident" : 80,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "firmware.revision0" : {
+    "name" : "revision0",
+    "group" : "firmware",
+    "ident" : 59,
+    "ctype" : "UINT32_T",
+    "access" : 0
+  },
+  "firmware.revision1" : {
+    "name" : "revision1",
+    "group" : "firmware",
+    "ident" : 60,
+    "ctype" : "UINT16_T",
+    "access" : 0
+  },
+  "anchorpos.anchor0z" : {
+    "name" : "anchor0z",
+    "group" : "anchorpos",
+    "ident" : 83,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor0y" : {
+    "name" : "anchor0y",
+    "group" : "anchorpos",
+    "ident" : 82,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "firmware.modified" : {
+    "name" : "modified",
+    "group" : "firmware",
+    "ident" : 61,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "anchorpos.anchor0x" : {
+    "name" : "anchor0x",
+    "group" : "anchorpos",
+    "ident" : 81,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.yaw_ki" : {
+    "name" : "yaw_ki",
+    "group" : "pid_attitude",
+    "ident" : 29,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "pid_attitude.yaw_kd" : {
+    "name" : "yaw_kd",
+    "group" : "pid_attitude",
+    "ident" : 30,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posCtlPid.xKd" : {
+    "name" : "xKd",
+    "group" : "posCtlPid",
+    "ident" : 40,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "motorPowerSet.enable" : {
+    "name" : "enable",
+    "group" : "motorPowerSet",
+    "ident" : 54,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "flightmode.stabModePitch" : {
+    "name" : "stabModePitch",
+    "group" : "flightmode",
+    "ident" : 11,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "posCtlPid.xKi" : {
+    "name" : "xKi",
+    "group" : "posCtlPid",
+    "ident" : 39,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "imu_sensors.HMC5883L" : {
+    "name" : "HMC5883L",
+    "group" : "imu_sensors",
+    "ident" : 62,
+    "ctype" : "UINT8_T",
+    "access" : 0
+  },
+  "ring.glowstep" : {
+    "name" : "glowstep",
+    "group" : "ring",
+    "ident" : 78,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor1x" : {
+    "name" : "anchor1x",
+    "group" : "anchorpos",
+    "ident" : 84,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "posEst.velFactor" : {
+    "name" : "velFactor",
+    "group" : "posEst",
+    "ident" : 35,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "ring.solidGreen" : {
+    "name" : "solidGreen",
+    "group" : "ring",
+    "ident" : 75,
+    "ctype" : "UINT8_T",
+    "access" : 1
+  },
+  "posCtlPid.xKp" : {
+    "name" : "xKp",
+    "group" : "posCtlPid",
+    "ident" : 38,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor1z" : {
+    "name" : "anchor1z",
+    "group" : "anchorpos",
+    "ident" : 86,
+    "ctype" : "FLOAT",
+    "access" : 1
+  },
+  "anchorpos.anchor1y" : {
+    "name" : "anchor1y",
+    "group" : "anchorpos",
+    "ident" : 85,
+    "ctype" : "FLOAT",
+    "access" : 1
+  }
+}
