@@ -1,6 +1,6 @@
 INSTRUCTIONS
 -------------
-
-*Import both LeapFlie2 and se.bitcraze.crazyflie.lib projects into eclipse as the latter acts as a library to the former.
-
+*Download LeapFlie2 
+*Download the Crazyflie 2.0 java library from https://github.com/fredg02/se.bitcraze.crazyflie.lib
+*Import both LeapFlie2 and se.bitcraze.crazyflie.lib projects into eclipse.
 *Run the LeapFlieUI class in the directory LeapFlie2\src.
