@@ -1,6 +1,7 @@
 LeapFlie
 
 Control the Crazyflie 2.0 with the Leap Motion Controller or alternatively with a generic gamepad.
+Youtube video: https://www.youtube.com/watch?v=DFXFYECm81k
 
 INSTRUCTIONS
 -------------
